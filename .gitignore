@@ -71,3 +71,5 @@ Thumbs.db
 *.dll
 *.exe
 
+# Credentials and other non-shareable data
+private/**
