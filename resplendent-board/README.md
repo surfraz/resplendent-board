@@ -1,5 +1,3 @@
-# Resplendent Board
-
 # ![Resplendent Board](images/screenshot-1.png)
 
 This is a showcase and technology-preview of a Metrics Dashboard built in Qt/QML.
