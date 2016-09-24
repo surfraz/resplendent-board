@@ -1,4 +1,4 @@
-# ![Resplendent Board](images/screenshot-1.png)
+# ![Resplendent Board](resplendent-board/images/screenshot-1.png)
 
 This is a showcase and technology-preview of a Metrics Dashboard built in Qt/QML.
 
@@ -79,13 +79,17 @@ You can run the Project, by clicking the green Play button in the bottom right-h
 Qt Creator.
 
 ## Directory Layout
-- /configs - contains board specific items, e.g. board title, metrics to display etc.
-- /metrics - metric, collection and display, code plugins
-- /themes  - configurable aspects of the look and feel
-- /images  - icons and graphics used by metric plugins
-- Background.qml - Dashboard background display code
-- Title.qml      - Main Title code
-- main.qml       - The parent code of the dashboard (start here)
+* resplendent-board
+  * /configs - contains board specific items, e.g. board title, metrics to display etc.
+  * /metrics - metric, collection and display, code plugins
+  * /themes  - configurable aspects of the look and feel
+  * /images  - icons and graphics used by metric plugins
+  * Background.qml - Dashboard background display code
+  * Title.qml      - Main Title code
+  * main.qml       - The parent code of the dashboard (start here)
+* tests
+  * tests.pro - test Qt Creator project file
+  * main.cpp - test runner source
 
 ## Further resources on Qt/QML
 - [What is QML?][http://doc.qt.io/qt-5/qmlapplications.html]
@@ -94,8 +98,8 @@ Qt Creator.
 - [QML Tutorial][http://doc.qt.io/qt-5/qml-tutorial.html]
 
 ## More Screenshots
-![Resplendent Board](images/screenshot-2.png)
-![Resplendent Board](images/screenshot-3.png)
+![Resplendent Board](resplendent-board/images/screenshot-2.png)
+![Resplendent Board](resplendent-board/images/screenshot-3.png)
 
 ## Licensing
 
